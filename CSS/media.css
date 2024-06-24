@@ -1,0 +1,86 @@
+/* For header unorder list */
+@media (max-width : 950px) {
+    .unorder {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+}
+
+/* For sidebar hamburger menu */
+@media (min-width : 950px) {
+    .sidebar_menu {
+        display: none;
+    }
+
+    .dundhla {
+        background-color: white;
+    }
+}
+
+/* for header resume */
+@media (max-width : 550px) {
+    .resume-div a {
+        display: none;
+    }
+}
+
+/* for header resume btn */
+@media (min-width : 550px) {
+    .resume-btn-side {
+        display: none;
+    }
+}
+
+@media (max-width : 700px) {
+    .love {
+        font-size: 3.5rem;
+    }
+
+    .running-code {
+        font-size: 2rem;
+    }
+
+    .intro {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width : 550px) {
+    .love {
+        font-size: 2.5rem;
+    }
+
+    .running-code {
+        font-size: 1.5rem;
+    }
+
+    header {
+        padding: 0.4rem 0.9rem;
+    }   
+    
+    .project-body {
+        justify-content: center;
+    }
+}
+
+@media(max-width:475px) {
+    /* .pro-search i {
+        left: 12rem;
+        top: 1.8rem;
+    } */
+     .project-head {
+        justify-content: center;
+        gap: 1rem;
+     }
+}
+
+@media(max-width:380px) {
+    .pro-search i {
+        left: 12rem;
+        top: 1.8rem;
+    }
+}
